@@ -27,7 +27,7 @@ Mapeamento de funcionalidades do habit tracker ↔ conceitos de TypeScript. É u
    → formulário de edição de hábito; mapa de status de hábito por dia
 
 9. **Generics mais avançados**
-   → repositório genérico de persistência (`Store<T>`) para salvar em `localStorage`
+   → repositório genérico de persistência (`Store<T>`) para salvar em `localStorage`. Sem backend/API própria — persistência é 100% local no navegador (ver `decisoes-arquitetura.md`, ADR 1).
 
 10. **Interfaces vs `type`, `extends`, composição**
     → evoluir o modelo `Habit` conforme necessidade (ex: hábitos com metas numéricas)

@@ -9,6 +9,7 @@
 ## O que este projeto NÃO é
 - Não é um projeto "vibe coded": a IA não deve simplesmente entregar a solução pronta sem o usuário entender o porquê.
 - Não é um projeto de produção com prazo ou stakeholders. Não há pressa — a prioridade é compreensão, não velocidade de entrega.
+- Não é um projeto full-stack: não há backend, API própria ou banco de dados. Toda a persistência é local, no navegador. Ver `decisoes-arquitetura.md` (ADR 1) para o raciocínio completo.
 
 ## O que este projeto É
 - Desenvolvimento **assistido por IA com foco pedagógico**: o objetivo final é o usuário ficar confortável com TypeScript, não apenas ter o app funcionando.
@@ -21,4 +22,4 @@
 - Prefere se comunicar em português.
 - Setup atual: projeto criado com `npm create vite@latest` (template `vanilla-ts`), ainda no estado inicial do template — nenhuma lógica de hábitos implementada ainda.
 
-Ver também: [[regras-de-colaboracao]], [[roteiro-de-aprendizado]], [[progresso]].
+Ver também: [[regras-de-colaboracao]], [[roteiro-de-aprendizado]], [[progresso]], [[decisoes-arquitetura]].

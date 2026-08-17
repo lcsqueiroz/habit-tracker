@@ -21,3 +21,17 @@ Estas regras existem porque este é um projeto de **aprendizado**, não apenas d
 7. **Sem testes automatizados por enquanto**, a menos que o usuário peça explicitamente. O foco atual é tipagem e lógica de domínio, não cobertura de testes.
 
 8. **Manter o contexto vivo.** Ao final de sessões em que algo relevante for implementado ou decidido, atualizar `progresso.md` com o que foi feito e quais conceitos do roteiro foram cobertos.
+
+## Git: commits, push e branches
+
+9. **Commit e push são permitidos** (o usuário autorizou de forma geral para este projeto), sempre seguindo as regras abaixo.
+
+10. **Conventional Commits obrigatório.** Toda mensagem de commit segue `tipo(escopo opcional): descrição`, com tipos como `feat`, `fix`, `docs`, `refactor`, `chore`, `test`, `security`. Exemplo: `feat(habit): adiciona tipo Habit e validação básica`.
+
+11. **Nunca referenciar Claude/IA como autor do commit ou push.** Não incluir `Co-Authored-By: Claude`, menções a "Claude", "AI" ou similares na mensagem de commit, nem em nenhum metadado do commit/push. O autor do commit é sempre o usuário (configuração de git do próprio usuário).
+
+12. **Branches por tipo de trabalho.** Toda funcionalidade nova, correção ou ajuste de segurança nasce em uma branch dedicada, a partir de `main`:
+    - `feature/<nome-curto>` para funcionalidades novas
+    - `fix/<nome-curto>` para correções de bug
+    - `security/<nome-curto>` para ajustes de segurança
+    Ao concluir, faz merge para `main` (a estratégia de merge — merge commit, squash, etc. — é decidida com o usuário no momento, sem preferência fixa ainda).

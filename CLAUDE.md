@@ -11,3 +11,4 @@ Este é um projeto de **aprendizado de TypeScript**, não um projeto de produç�
 - Código do app em `app/` (Vite + template `vanilla-ts`).
 - Objetivo: usuário aprender TypeScript de verdade construindo um rastreador de hábitos, com ajuda de IA — não ter a IA construindo tudo sozinha.
 - Regra de ouro: explicar o conceito antes/junto do código, avançar em passos pequenos, manter `strict` e boas práticas, atualizar `progresso.md` ao fim de sessões relevantes.
+- Git: commit e push autorizados, seguindo Conventional Commits, sem referenciar Claude/IA como autor. Trabalho novo em branches `feature/`, `fix/` ou `security/`, com merge para `main` ao concluir.

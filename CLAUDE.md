@@ -21,6 +21,10 @@ Este é um projeto de **aprendizado de TypeScript**, não um projeto de produç�
 - `npm run preview` — serve o build de produção localmente.
 - Não há lint nem testes configurados (ver regra 7 em `regras-de-colaboracao.md`: sem testes automatizados por enquanto, a menos que pedido explicitamente). A verificação de tipos via `tsc`/`strict` é o principal guarda-corpo de correção.
 
+## Documentação para humanos
+- `README.md` — visão geral do projeto e como rodar.
+- `GUIA-TECNICO.md` — referência técnica seção por seção (lógica em alto nível → conceito de TS → implementação), atualizado conforme o roteiro avança. Ao fechar um novo item do roteiro, adicionar a seção correspondente aqui também (não só em `progresso.md`).
+
 ## Estado atual do código
 - `app/src/main.ts` e `app/src/counter.ts` ainda são o boilerplate padrão do template `vanilla-ts` (contador de cliques, links de exemplo do Vite/TypeScript) — nenhuma lógica de hábitos foi implementada ainda.
 - `app/tsconfig.json` já vem com `strict` (herdado do template) mais checks extras (`noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`) — manter todos ativos.
